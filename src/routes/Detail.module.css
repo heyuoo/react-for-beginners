@@ -5,7 +5,7 @@
   align-items: center;
   min-height: 100vh;
   background-color: #f5f5f5;
-  padding: 20px;
+  padding: 80px 20px 20px; /* 👈 상단 패딩 추가 */
 }
 
 /* 로딩 스피너 */

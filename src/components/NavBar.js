@@ -6,7 +6,7 @@ function NavBar() {
     <nav className={styles.navbar}>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to={`${process.env.PUBLIC_URL}/`}>◀ Home</Link>
         </li>
       </ul>
     </nav>
