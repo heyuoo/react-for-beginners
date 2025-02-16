@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styles from "./Detail.module.css";
+import NavBar from "../components/NavBar";
 
 function Detail() {
   const { id } = useParams();
@@ -20,6 +21,7 @@ function Detail() {
 
   return (
     <div className={styles.container}>
+      <NavBar />
       {loading ? (
         <div className={styles.loader}>
           <span>Loading...</span>
